@@ -262,14 +262,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			Debug.Log("Collide");
 			if(other.gameObject.tag == "SpeedBooster")
 			{
-				boosterTimer = 5000f;
-				GameObject.Destroy(other.gameObject);
+				boosterTimer = 50000f;
+				//GameObject.Destroy(other.gameObject);
 			}
 
 			if(other.gameObject.tag == "JumpBooster")
 			{
-				jumpTimer = 3000f;
-				GameObject.Destroy(other.gameObject);
+				jumpTimer = 30000f;
+				//GameObject.Destroy(other.gameObject);
 			}
 
 			if(other.gameObject.tag == "Bad")
